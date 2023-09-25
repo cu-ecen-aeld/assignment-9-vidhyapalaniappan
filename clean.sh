@@ -1,4 +1,12 @@
 #!/bin/sh
+#script to clean buildroot files
 
-cd buildroot
-make distclean
+.PHONY: clean
+
+clean:
+    if [ -d "buildroot" ]; then \
+        cd buildroot && make distclean; \
+    else \
+        echo "The 'buildroot' directory is not found."; \
+    fi
+
