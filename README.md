@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Overview
+
+This repository contains assignment starter code for buildroot based assignments for the course Advanced Embedded Software Design, ECEN 5713
+
+It also contains instructions related to modifying your buildroot project to use with supported hardware platforms.  See [this wiki page](https://github.com/cu-ecen-5013/buildroot-assignments-base/wiki/Supported-Hardware) for details.
+=======
+=======
+>>>>>>> 24250b62d418c70d0d862bb0e61902c71d5630f5
 ldd3: Linux Device Drivers 3 examples updated to work with recent kernels
 
 # About
@@ -50,3 +60,7 @@ This can be done on a system with kernel headers installed using:
 ```
 ln -s /usr/src/linux-headers-`uname -r`/ linux_source_cdt
 ```
+<<<<<<< HEAD
+>>>>>>> ldd-base/master
+=======
+>>>>>>> 24250b62d418c70d0d862bb0e61902c71d5630f5
