@@ -64,4 +64,3 @@ chmod $mode  /dev/${device}priv
 
 
 
-
