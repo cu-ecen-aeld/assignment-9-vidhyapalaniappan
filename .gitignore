@@ -1,9 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 *.o
 build/
 .vscode/
 *.log
 =======
+=======
+>>>>>>> 24250b62d418c70d0d862bb0e61902c71d5630f5
 # vim
 *.sw[a-z]
 *.un~
@@ -41,4 +44,7 @@ asynctest
 linux_source_cdt
 !.project
 !.cproject
+<<<<<<< HEAD
 >>>>>>> ldd-base/master
+=======
+>>>>>>> 24250b62d418c70d0d862bb0e61902c71d5630f5
