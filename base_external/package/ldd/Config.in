@@ -1,5 +1,5 @@
 config BR2_PACKAGE_LDD
 	bool "ldd"
 	help
-	  Includes the scull and faulty module in the kernel image.
-	  Used to understand buildroot external trees and package builds.
+	  Incorporates the kernel image's defective and scull modules.
+	  Implemented to comprehend package builds and external buildroot trees.
