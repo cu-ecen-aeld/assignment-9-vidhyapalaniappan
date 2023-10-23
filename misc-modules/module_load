@@ -37,3 +37,4 @@ if [ ! -z ${major} ]; then
 else
     echo "No device found in /proc/devices for driver ${module} (this driver may not allocate a device)"
 fi
+
