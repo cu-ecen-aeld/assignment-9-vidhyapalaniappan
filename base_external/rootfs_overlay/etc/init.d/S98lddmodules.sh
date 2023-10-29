@@ -14,6 +14,7 @@ start_modules() {
     echo "Loading scull and faulty modules"
     $MODULE_LOAD_EXEC faulty
     scull_load
+    /usr/bin/aesdchar_load
     $MODULE_LOAD_EXEC hello
 }
 
@@ -22,6 +23,7 @@ stop_modules() {
     echo "Unloading scull and faulty modules"
     $MODULE_UNLOAD_EXEC faulty
     scull_unload
+    /usr/bin/aesdchar_unload
     $MODULE_UNLOAD_EXEC hello
 }
 
